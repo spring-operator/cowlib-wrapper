@@ -1,0 +1,13 @@
+diff --git a/src/cowlib.app.src b/src/cowlib.app.src
+index e6a29f8..8f6797f 100644
+--- a/src/cowlib.app.src
++++ b/src/cowlib.app.src
+@@ -20,7 +20,6 @@
+ 	{registered, []},
+ 	{applications, [
+ 		kernel,
+-		stdlib,
+-		crypto
++		stdlib
+ 	]}
+ ]}.
